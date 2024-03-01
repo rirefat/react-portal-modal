@@ -1,3 +1,4 @@
+import PortalExtended from "./Components/PortalExtended";
 import PortalModal from "./Components/PortalModal";
 import PortalWrapperModal from "./Components/PortalWrapperModal";
 import TraditionalModal from "./Components/TraditionalModal";
@@ -8,6 +9,7 @@ const App = () => {
       <TraditionalModal/>
       <PortalModal/>
       <PortalWrapperModal/>
+      <PortalExtended/>
     </div>
   );
 };
